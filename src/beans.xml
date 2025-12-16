@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.springframework.org/schema/beans
+        https://www.springframework.org/schema/beans/spring-beans.xsd">
+
+
+  <bean id="e1" class="com.spring.di.Employee"> 
+        <constructor-arg name="eid" value="11"></constructor-arg>
+        <constructor-arg name="name" value="Sanket Patil"></constructor-arg>
+        <constructor-arg name="cmp" value="TCS"></constructor-arg>
+        <constructor-arg name="email" value="sanket@tcs.com"></constructor-arg>
+        <constructor-arg name="salary" value="50000"></constructor-arg>
+        
+    </bean>
+
+
+<!--  
+    <bean id="e1" class="com.spring.di.Employee">  
+        
+        <property name="eid" value="11"></property>
+        <property name="name" value="Sanket Patil"></property>
+        <property name="cmp" value="TCS"></property>
+        <property name="email" value="sanket@tcs.com"></property>
+        <property name="salary" value="50000"></property>
+        
+    </bean>
+-->
+   
+
+    <!-- more bean definitions go here -->
+
+</beans>
